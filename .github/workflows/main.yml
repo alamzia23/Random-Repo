@@ -1,0 +1,8 @@
+name: it is the github context thing
+on: workflow_dispatch
+jobs:
+  github-context:
+         runs-on: ubuntu-latest
+         steps:
+           - name: give the github info using the context
+             run : echo "${{toJSON(github)}}"
