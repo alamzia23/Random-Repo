@@ -8,4 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print my name
-        run: echo "hey i am alam"
+        run: |
+            echo "i am a testing workflow"
+            echo " my name is alam zia"
