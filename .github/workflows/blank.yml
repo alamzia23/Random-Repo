@@ -1,4 +1,4 @@
-name: it is my first-workflow
+name: it-is-my-first-workflow
 
 on:
   workflow_dispatch
@@ -7,7 +7,13 @@ jobs:
   it-is-the-first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print whatever ihave given you
+      - name: Print whatever I have given you
         run: |
-            echo "i am a testing workflow"
-            echo " my name is alam zia"
+          echo "I am a testing workflow"
+          echo "My name is Alam Zia"
+
+  it-is-the-second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print the second thing that I gave you
+        run: echo "Hey, it is the parallel job in GitHub Actions"
