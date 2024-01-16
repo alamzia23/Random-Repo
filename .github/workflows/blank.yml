@@ -1,7 +1,7 @@
 name: it-is-my-first-workflow
 
-on:
-  workflow_dispatch
+on: [push, workflow_dispatch]
+ 
 
 jobs:
   it-is-the-first-job:
