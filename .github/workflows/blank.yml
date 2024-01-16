@@ -7,7 +7,7 @@ jobs:
   it-is-the-first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print my name
+      - name: Print whatever ihave given you
         run: |
             echo "i am a testing workflow"
             echo " my name is alam zia"
